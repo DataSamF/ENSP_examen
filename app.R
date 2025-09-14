@@ -9,6 +9,7 @@ library(thematic)
 library(shinylive)
 library(rsconnect)
 
+# Chargement de la base de données 
 data("diamonds")
 thematic_shiny(font = "auto")
 ui <- fluidPage(
